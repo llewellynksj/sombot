@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>SomBot</title>
 </head>
 
 <body>
-    <nav>
-        <a>Home</a>
-        <a>Find a pairing</a>
-        <a>Explore</a>
-        <a>Contact</a>
-    </nav>
+    <div class="topnav">
+        <a href="index.html" class="active">Logo</a>
+        <div id="links">
+            <a href="#pairing">Find a Pairing</a>
+            <a href="#explore">Explore</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
+            <i><i class="fa-duotone fa-bars"></i></i>
+        </a>
+    </div>
 
     <div>
         <h1>SomBot</h1>
-        <h2>Your pocket Sommerlier!</h2>
+        <h2>Your pocket Sommelier!</h2>
     </div>
 
     <div>
@@ -32,6 +38,8 @@
         Copyright
     </footer>
 
+<script src="https://kit.fontawesome.com/b59d6ce89e.js" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>
