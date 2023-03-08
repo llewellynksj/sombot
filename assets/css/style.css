@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+QLD+Beginner&display=swap');
+
+#logo {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* burger menu */
 .topnav {
     overflow: hidden;
     background-color: #ddd;
@@ -32,4 +41,13 @@
 .active {
     background-color: #D789E4;
     color: white;
+}
+
+/* //////////////////////////////// */
+
+h1 {
+    font-family: "Edu QLD Beginner", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
 }
