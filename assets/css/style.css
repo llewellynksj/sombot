@@ -9,6 +9,7 @@
 
 * {
     font-family: "Edu QLD Beginner", sans-serif;
+    font-weight: lighter;
     text-align: center;
     list-style: none;
 }
@@ -69,6 +70,38 @@
 }
 
 #heading h1 {
-    font-weight: lighter;
     font-size: 25px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+
+.container * {
+    margin: 10px;
+}
+
+.border {
+    background-color: white;
+}
+
+.border {
+    max-width: 480px;
+    border: 1px solid #252525;
+    border-radius: 35px;
+    padding: 0 5px 10px 5px;
+    margin: 0 5px 10px 5px;
+    position: relative;
+}
+
+/* Shadow on main container across all pages, code adapted from https://neumorphism.io/#ffffff */
+.shadow {
+    border-radius: 35px;
+    background: linear-gradient(225deg, #ffffff, #EFEFEF);
+    box-shadow:  -5px 8px 28px #666666, 5px 2px 28px #ffffff;
 }
